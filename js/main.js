@@ -18,6 +18,7 @@ $(window).on('load', function() {
 
 });
 
+
 (function($) {
 
     /*------------------
@@ -28,6 +29,8 @@ $(window).on('load', function() {
         event.preventDefault();
     });
 
+   
+   
 
     /*------------------
     	Background set
@@ -68,7 +71,7 @@ $(window).on('load', function() {
         items: 1,
         margin: 20,
         autoplay: true,
-        navText: ['<i class="ti-angle-left"><i>', '<i class="ti-angle-right"><i>'],
+        navText: ['<i class="fa fa-arrow-left text-dark"><i>', '<i class="fa fa-arrow-right text-dark"><i>'],
         animateOut: 'fadeOutDown',
         animateIn: 'fadeInDown',
     });
