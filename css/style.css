@@ -250,7 +250,7 @@ ul {
     position: absolute;
     width: 100%;
     display: flex;
- 
+   
     align-items: center;
     top: 0;
     padding: 10px 50px 0;
@@ -259,6 +259,15 @@ ul {
 
 .code>li{
     margin: auto;
+
+}
+.spec > li::before{
+
+    content: '\2708';
+    color:#ffc107 ;
+    font-size: 30px;
+    padding-right: 10px;
+    
 }
 .custom_border{
 
@@ -324,18 +333,29 @@ ul {
 -----------------------*/
 
 .hero-section {
-    height: 700px;
+    height: 800px;
     padding-top: 100px;
     padding-bottom: 100px;
-    
+   
     display: block;
-    background-image: url("../img/hero-bg.png");
+    background-image: url("../img/dubai-business-view-1200.jpg");
     background-size: cover;
     background-color: #f3f7f9;
     background-position: right top;
     background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
+}
+.hero-section::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #111213;
+    opacity: 0.5;
+    position:absolute;
+    top: 0;
+    left: 0;
+
 }
 
 .hero-section .laptop-image {
@@ -354,6 +374,7 @@ ul {
     font-weight: bolder;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-bottom: 35px;
+    
 }
 
 .hero-text h2 span {
