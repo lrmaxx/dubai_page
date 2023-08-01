@@ -315,7 +315,7 @@ ul {
 
 .hero-section {
     height: 600px;
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 100px;
     
     display: block;
@@ -336,7 +336,7 @@ ul {
 }
 
 .hero-text {
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 .hero-text h2 {
@@ -1671,7 +1671,7 @@ ul {
     .hero-section {
         height: auto;
         padding-bottom: 30px;
-        padding-top: 160px;
+        padding-top: 150px;
         background-position: right 50% top;
     }
     .page-info-section {
