@@ -265,11 +265,7 @@ ul {
     border-width: 3px;
     border-style: solid;
     border-image: 
-      linear-gradient(
-        to bottom, 
-        red, 
-        rgba(0, 0, 0, 0)
-      ) 1 100%;
+      linear-gradient(to bottom,  #3e2bce 0%, #2dd3aa 100%, #2dd3aa 100%, #2dd3aa 100% ) 2 100%;
     /* 
      */
 }
